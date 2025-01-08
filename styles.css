@@ -1,0 +1,22 @@
+:root {
+  color-scheme: light dark;
+}
+
+::highlight(visited_page) {
+  color: light-dark(yellow, yellow);
+}
+
+::highlight(valid_link) {
+  background-color: light-dark(green, green);
+  text-decoration: underline;
+}
+
+::highlight(invalid_link) {
+  background-color: light-dark(red, red);
+  text-decoration: underline;
+}
+
+::highlight(unexpected_link) {
+  background-color: light-dark(purple, purple);
+  text-decoration: underline;
+}
